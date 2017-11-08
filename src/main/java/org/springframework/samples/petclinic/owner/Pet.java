@@ -75,7 +75,7 @@ public class Pet extends NamedEntity {
 
     public Date getBirthDate() {
         //return this.birthDate;
-        return new Date(this.birthDate.getTime());
+        return this.birthDate == null ? null : new Date(this.birthDate.getTime());
     }
 
     public PetType getType() {
