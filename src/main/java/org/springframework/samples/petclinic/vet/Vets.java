@@ -28,6 +28,7 @@ import javax.xml.bind.annotation.XmlRootElement;
  * @author Arjen Poutsma
  */
 @XmlRootElement
+@SuppressWarnings("PMD")
 public class Vets {
 
     private List<Vet> vets;

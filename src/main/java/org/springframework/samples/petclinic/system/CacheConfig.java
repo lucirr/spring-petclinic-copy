@@ -14,6 +14,7 @@ import org.springframework.context.annotation.Profile;
 @org.springframework.context.annotation.Configuration
 @EnableCaching
 @Profile("production")
+@SuppressWarnings("PMD")
 class CacheConfig {
 
     @Bean

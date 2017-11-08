@@ -29,6 +29,7 @@ import org.springframework.test.web.servlet.MockMvc;
  */
 @RunWith(SpringRunner.class)
 @WebMvcTest(OwnerController.class)
+@SuppressWarnings("PMD")
 public class OwnerControllerTests {
 
     private static final int TEST_OWNER_ID = 1;

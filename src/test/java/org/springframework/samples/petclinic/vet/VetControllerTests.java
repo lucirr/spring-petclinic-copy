@@ -30,6 +30,7 @@ import org.springframework.test.web.servlet.ResultActions;
  */
 @RunWith(SpringRunner.class)
 @WebMvcTest(VetController.class)
+@SuppressWarnings("PMD")
 public class VetControllerTests {
 
     @Autowired

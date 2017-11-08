@@ -44,6 +44,7 @@ import org.springframework.samples.petclinic.model.Person;
  */
 @Entity
 @Table(name = "owners")
+@SuppressWarnings("PMD")
 public class Owner extends Person {
     @Column(name = "address")
     @NotEmpty

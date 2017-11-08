@@ -36,6 +36,7 @@ import org.springframework.test.web.servlet.MockMvc;
     includeFilters = @ComponentScan.Filter(
                             value = PetTypeFormatter.class,
                             type = FilterType.ASSIGNABLE_TYPE))
+@SuppressWarnings("PMD")
 public class PetControllerTests {
 
     private static final int TEST_OWNER_ID = 1;

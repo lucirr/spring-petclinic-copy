@@ -27,6 +27,7 @@ import org.springframework.test.web.servlet.MockMvc;
  */
 @RunWith(SpringRunner.class)
 @WebMvcTest(VisitController.class)
+@SuppressWarnings("PMD")
 public class VisitControllerTests {
 
     private static final int TEST_PET_ID = 1;

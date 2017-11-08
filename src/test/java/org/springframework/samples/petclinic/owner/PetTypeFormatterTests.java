@@ -24,6 +24,7 @@ import org.springframework.samples.petclinic.owner.PetTypeFormatter;
  * @author Colin But
  */
 @RunWith(MockitoJUnitRunner.class)
+@SuppressWarnings("PMD")
 public class PetTypeFormatterTests {
 
     @Mock

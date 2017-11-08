@@ -49,6 +49,7 @@ import org.springframework.samples.petclinic.visit.Visit;
  */
 @Entity
 @Table(name = "pets")
+@SuppressWarnings("PMD")
 public class Pet extends NamedEntity {
 
     @Column(name = "birth_date")

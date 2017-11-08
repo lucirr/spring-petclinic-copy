@@ -30,6 +30,7 @@ import org.springframework.samples.petclinic.model.BaseEntity;
  * @see org.springframework.samples.petclinic.model.BaseEntity
  * @since 29.10.2003
  */
+@SuppressWarnings("PMD")
 public abstract class EntityUtils {
 
     /**

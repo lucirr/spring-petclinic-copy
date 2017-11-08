@@ -43,6 +43,7 @@ import org.springframework.samples.petclinic.model.Person;
  */
 @Entity
 @Table(name = "vets")
+@SuppressWarnings("PMD")
 public class Vet extends Person {
 
     @ManyToMany(fetch = FetchType.EAGER)
