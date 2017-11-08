@@ -13,7 +13,7 @@ inputs:
   - name: git
 
 outputs:
-  - name: secure-coding-out
+  - name: out
 
 run:
   path: git/ci/secure-coding/secure-coding-exe.sh

@@ -1,7 +1,5 @@
 #!/bin/sh 
 
-echo $(ls -al git)
-
 findbugs_cmd="-Xmx512m -jar /findbugs-$VERSION/lib/findbugs.jar -textui "
 findbugs_report_file='findbugs_report.html'
 findbugs_err_word='Warnings generated: '
