@@ -7,9 +7,8 @@ params:
   RULE_PATH:
 
 inputs:
-  - name: source-git
-  - name: reserved-job-git
+  - name: git
 
 run:
-  path: reserved-job-git/staticAnalysis/static-analysis-exe.sh
-  args: ["tbd", "source-git"]
+  path: git/ci/static-analysis/static-analysis-exe.sh
+  args: ["tbd", "git"]

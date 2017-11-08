@@ -6,12 +6,11 @@ params:
   VERSION:
 
 inputs:
-  - name: source-git
-  - name: compile-out
-  - name: reserved-job-git
+  - name: git
+
 outputs:
   - name: secure-coding-out
-#    path: jar-file/reports
+
 run:
-  path: reserved-job-git/secureCoding/secure-coding-exe.sh
-  args: ["compile-out/classes"]
+  path: git/secure-coding/secure-coding-exe.sh
+  args: ["git/target/classes"]
