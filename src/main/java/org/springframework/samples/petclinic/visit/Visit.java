@@ -73,7 +73,8 @@ public class Visit extends BaseEntity {
      * @return Value of property date.
      */
     public Date getDate() {
-        return this.date;
+        //return this.date;
+        return (Date)this.date.clone();
     }
 
     /**
