@@ -37,6 +37,7 @@ import org.springframework.web.servlet.ModelAndView;
  * @author Arjen Poutsma
  * @author Michael Isvy
  */
+//NOPMD
 @Controller
 class OwnerController {
 
