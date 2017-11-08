@@ -16,5 +16,5 @@ outputs:
   - name: secure-coding-out
 
 run:
-  path: git/secure-coding/secure-coding-exe.sh
+  path: git/ci/secure-coding/secure-coding-exe.sh
   args: ["git/target/classes"]
