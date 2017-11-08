@@ -11,8 +11,6 @@ params:
 
 inputs:
   - name: git
-
-outputs:
   - name: out
 
 run:
