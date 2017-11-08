@@ -13,8 +13,8 @@ inputs:
   - name: git
 
 outputs:
-  - name: out
+  - name: 
 
 run:
   path: git/ci/secure-coding/secure-coding-exe.sh
-  args: ["out/target/classes"]
+  args: ["git/target/classes"]
