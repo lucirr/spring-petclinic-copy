@@ -1,0 +1,17 @@
+---
+platform: linux
+image: docker:///mhlee/javapmd
+
+params:
+  VERSION:
+
+inputs:
+  - name: source-git
+  - name: compile-out
+  - name: reserved-job-git
+outputs:
+  - name: secure-coding-out
+#    path: jar-file/reports
+run:
+  path: reserved-job-git/secureCoding/secure-coding-exe.sh
+  args: ["compile-out/classes"]

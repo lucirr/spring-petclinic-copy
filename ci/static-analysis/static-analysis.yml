@@ -1,0 +1,15 @@
+---
+platform: linux
+image: docker:///mhlee/javapmd
+
+params:
+  VERSION:
+  RULE_PATH:
+
+inputs:
+  - name: source-git
+  - name: reserved-job-git
+
+run:
+  path: reserved-job-git/staticAnalysis/static-analysis-exe.sh
+  args: ["tbd", "source-git"]
