@@ -1,5 +1,7 @@
 #!/bin/sh 
 
+mvn -f git/pom.xml -DskipTests=true compile
+
 echo $(ls -al git)
 
 findbugs_cmd="-Xmx512m -jar /findbugs-$VERSION/lib/findbugs.jar -textui "
