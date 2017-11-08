@@ -12,6 +12,9 @@ params:
 inputs:
   - name: git
 
+outputs:
+  - name: out
+
 run:
   path: git/ci/secure-coding/secure-coding-exe.sh
-  args: ["git/target/classes"]
+  args: ["out/target/classes"]
