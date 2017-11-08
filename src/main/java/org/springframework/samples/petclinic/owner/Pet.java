@@ -69,11 +69,13 @@ public class Pet extends NamedEntity {
     private Set<Visit> visits = new LinkedHashSet<>();
 
     public void setBirthDate(Date birthDate) {
-        this.birthDate = birthDate;
+        //this.birthDate = birthDate;
+        this.birthDate = (Date)birthData.clone();
     }
 
     public Date getBirthDate() {
-        return this.birthDate;
+        //return this.birthDate;
+        return (Date)this.birthDate.clone();;
     }
 
     public PetType getType() {

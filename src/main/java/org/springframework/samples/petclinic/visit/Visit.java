@@ -83,7 +83,8 @@ public class Visit extends BaseEntity {
      * @param date New value of property date.
      */
     public void setDate(Date date) {
-        this.date = date;
+        //this.date = date;
+        this.date = (Date)date.clone();
     }
 
     /**
